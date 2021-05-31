@@ -1,5 +1,6 @@
 {
-  "name": "efficient-hooks",
+  "name": "@dannnyliang/efficient-hooks",
+  "homepage": "https://github.com/dannnyliang/efficient-hooks",
   "version": "1.0.0",
   "description": "Provide custom hooks to handle async behavior efficiently.",
   "main": "build/index.js",
@@ -9,6 +10,18 @@
     "type": "git",
     "url": "https://github.com/dannnyliang/efficient-hooks.git"
   },
+  "files": [
+    "build"
+  ],
+  "bugs": {
+    "url": "https://github.com/dannnyliang/efficient-hooks/issues"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "debounce",
+    "async"
+  ],
   "scripts": {
     "build": "esbuild lib/index.ts --bundle --outdir=build"
   },
