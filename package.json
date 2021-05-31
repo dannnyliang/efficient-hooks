@@ -8,5 +8,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/dannnyliang/efficient-hooks.git"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.8"
   }
 }
