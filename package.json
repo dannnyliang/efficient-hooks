@@ -29,6 +29,7 @@
   "scripts": {
     "build": "tsc",
     "prepublish": "yarn build",
+    "clean": "rm -rf dist",
     "test": "yarn jest",
     "type-check": "tsc --noEmit"
   },
