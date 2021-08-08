@@ -28,7 +28,10 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublish": "yarn build"
+    "prepublish": "yarn build",
+    "clean": "rm -rf dist",
+    "test": "yarn jest",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^17.0.2"

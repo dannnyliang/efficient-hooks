@@ -2,5 +2,6 @@
 {
   "coverageDirectory": "coverage",
   "preset": "ts-jest",
-  "testEnvironment": "jsdom"
+  "testEnvironment": "jsdom",
+  "modulePathIgnorePatterns": ["<rootDir>/dist/"]
 }
