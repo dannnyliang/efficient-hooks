@@ -59,7 +59,7 @@ function useDebounceEffect<Argument extends unknown, Response extends unknown>(
     setLoading(true);
     if (timer.current) clearTimeout(timer.current);
 
-    timer.current = setTimeout(() => {
+    timer.current = window.setTimeout(() => {
       _asyncEffect(args);
     }, time);
   };
