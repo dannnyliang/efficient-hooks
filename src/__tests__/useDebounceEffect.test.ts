@@ -1,8 +1,6 @@
 import { act, renderHook } from "@testing-library/react-hooks";
 
-import EfficientHooks from "../index";
-
-const { useDebounceEffect } = EfficientHooks;
+import { useDebounceEffect } from "../index";
 
 const mockApi = (value: string) =>
   new Promise<string>((resolve) => {
