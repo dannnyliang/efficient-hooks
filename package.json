@@ -27,7 +27,9 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
+    "prebuild": "yarn clean",
+    "publish": "npm login && np",
     "prepublish": "yarn build",
     "clean": "rm -rf dist",
     "test": "yarn jest",
@@ -47,6 +49,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "jest": "^27.0.5",
+    "np": "^7.5.0",
     "prettier": "^2.3.0",
     "react-test-renderer": "^17.0.2",
     "ts-jest": "^27.0.3",
