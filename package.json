@@ -27,7 +27,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "prebuild": "yarn clean",
     "prepublish": "yarn build",
     "clean": "rm -rf dist",
