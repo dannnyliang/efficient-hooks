@@ -29,8 +29,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "prebuild": "yarn clean",
-    "publish": "npm login && np",
-    "prepublish": "yarn build",
+    "release": "npm login && np",
+    "prerelease": "yarn build",
     "clean": "rm -rf dist",
     "test": "yarn jest",
     "type-check": "tsc --noEmit"
